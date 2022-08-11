@@ -8,19 +8,58 @@
   
   <title>Frontend Mentor | Manage landing page</title>
 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Customized tailwind config with manage landing page design tokens  -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            
+          }
+        }
+      }
+    }
+  </script>
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style>  
 </head>
 <body>
+  <header>
+    <div>
+      <img src="/manage-landing-page/images/logo.svg" alt="Mange Logo">
+    </div>
+    <nav>
+      <a href="#">Pricing</a>
+      <a href="#">Product</a>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Community</a>
+    </nav>
+  </header>
+  <article>
+    <section>
+      <div id="bring"></div>
+      <div id="graph">
+        <img src="/manage-landing-page/images/illustration-intro.svg" alt="Manage Illustration Graphic">
+      </div>
+    </section>
+    <section>
+      <aside>
 
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+      </aside>
+    </section>
+  </article>
+  
+  
+  
+  
+  
 
   Get Started
 
